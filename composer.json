@@ -1,0 +1,19 @@
+{
+    "name": "nats/nats",
+    "description": "This is my first composer package",
+    "type": "l",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Nats\\Nats\\": "src/Services"
+        }
+    },
+    "authors": [
+        {
+            "name": "peirenlong",
+            "email": "peirenlong@shengzetianxia.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
